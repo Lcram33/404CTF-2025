@@ -28,17 +28,21 @@ La résolution de ce challenge se fait en plusieurs étapes :
 *D'après [cet article WU](https://msm.lt/posts/cracking-rngs-lcgs/).*
 
 Le LCG est défini par la formule :
+
 $$X_{n+1} = (a \cdot X_n + b) \mod m$$
+
 $$X_0 = \text{seed}$$
 
 #### Récupération de a
 
 On peut récupérer $a$ en utilisant trois nombres générés consécutivement par le LCG :
+
 $$a = \frac{X_{n+2} - X_{n+1}}{X_{n+1} - X_n} \mod m$$
 
 #### Récupération de b
 
 On peut récupérer $b$ en utilisant deux nombres générés consécutivement par le LCG :
+
 $$b = (X_{n+1} - a \cdot X_n) \mod m$$
 
 #### Récupération de la graine

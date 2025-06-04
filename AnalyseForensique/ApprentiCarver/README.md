@@ -18,8 +18,10 @@
 <details>
 <summary></summary>
 
+
 > [!IMPORTANT]
 > Bien que j'ai réussi à flag sur ce challenge, je **déconseille fortement** la méthode suivante. Des points d'informations supplémentaires seront ajoutées sur chaque étape pour expliquer les erreurs à ne pas commettre.
+
 
 > [!TIP]
 > Une méthode de résolution plus fiable serait d'utiliser [Autopsy](https://www.autopsy.com/), un logiciel de référence pour l'analyse forensique. Il permet d'analyser un dump dique ou un disque de machine virtuelle sans risquer d'écraser des données.

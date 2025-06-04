@@ -1,0 +1,12 @@
+# Trash files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.sage.py
+
+# Dump files (large or useless)
+*.pt
+*.pkl
+
+# Virtual Machine export
+*.ova
