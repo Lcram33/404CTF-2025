@@ -30,13 +30,11 @@ Il suffit d'explorer le fichier d'événement, l'astuce étant de trier par ID d
 
 Ça se complique davantage, certaines entrées ont été supprimées.
 
-> [!TIP]
-> Il faut aller dans l'onglet "Détails" pour avoir tous les éléments de chaque événements, on peut retrouver certains détails <ins>même sur des événements supprimés</ins>.
+> 💡 Il faut aller dans l'onglet "Détails" pour avoir tous les éléments de chaque événements, on peut retrouver certains détails <ins>même sur des événements supprimés</ins>.
 
 Il faut alors chercher le bon compte utilisateur. Le flag se construit à partir des 3 descriptions ci-dessous.
 
-> [!TIP]
-> Attention, EventTimestamp n'est pas en format timestamp unix, il faut le convertir, par exemple avec https://www.timestamp-converter.com/
+> 💡 Attention, EventTimestamp n'est pas en format timestamp unix, il faut le convertir, par exemple avec https://www.timestamp-converter.com/
 
 ```
 L'utilisateur svc-x a été ajouté au groupe local : Administrateurs Informations supplémentaires : - MemberName: svc-x - MemberSid: S-1-5-21-3623811015-3361044348-30300820-1013 - TargetUserName: Administrateurs - TargetDomainName: CTFCORP - TargetSid: S-1-5-32-544 - SubjectUserSid: S-1-5-21-3623811015-3361044348-30300820-1013 - SubjectUserName: svc-x - SubjectDomainName: CTFCORP - SubjectLogonId: 0x36958 - PrivilegeList: SeSecurityPrivilege - EventTimestamp: 2025-05-14T18:00:24.9891621Z

@@ -19,12 +19,10 @@
 <summary></summary>
 
 
-> [!IMPORTANT]
-> Bien que j'ai réussi à flag sur ce challenge, je **déconseille fortement** la méthode suivante. Des points d'informations supplémentaires seront ajoutées sur chaque étape pour expliquer les erreurs à ne pas commettre.
+> ⚠️ Bien que j'ai réussi à flag sur ce challenge, je **déconseille fortement** la méthode suivante. Des points d'informations supplémentaires seront ajoutées sur chaque étape pour expliquer les erreurs à ne pas commettre.
 
 
-> [!TIP]
-> Une méthode de résolution plus fiable serait d'utiliser [Autopsy](https://www.autopsy.com/), un logiciel de référence pour l'analyse forensique. Il permet d'analyser un dump dique ou un disque de machine virtuelle sans risquer d'écraser des données.
+> 💡 Une méthode de résolution plus fiable serait d'utiliser [Autopsy](https://www.autopsy.com/), un logiciel de référence pour l'analyse forensique. Il permet d'analyser un dump dique ou un disque de machine virtuelle sans risquer d'écraser des données.
 
 
 ## Partie 1
@@ -32,8 +30,7 @@
 * On télécharge l'OVA.
 * C'est un fichier d'export de machine virtuelle. On l'importe dans VirtualBox.
 * On démarre la VM. On s'identifie avec les identifiants fournis dans l'énoncé.
-    > [!WARNING]
-    > Première erreur ici : ne pas faire de snapshot avant de démarrer la VM. En effet, toute opération dans la VM risque d'écraser des données importantes. Dans ce cas, ça n'est pas dramatique car on peut toujours réimporter l'OVA, mais c'est une erreur critique autrement, car chaque octet est une preuve potentielle dans une enquête forensique.
+    > ⚠️ Première erreur ici : ne pas faire de snapshot avant de démarrer la VM. En effet, toute opération dans la VM risque d'écraser des données importantes. Dans ce cas, ça n'est pas dramatique car on peut toujours réimporter l'OVA, mais c'est une erreur critique autrement, car chaque octet est une preuve potentielle dans une enquête forensique.
 * Premier réflexe :
     ```bash
     history
@@ -58,8 +55,7 @@
 
 ## Partie 2
 
-> [!NOTE]
-> Étant familler avec le duo testdisk/photorec (qui m'a déjà rendu bien des services), je me suis concentré sur l'utilisation de ces outils. J'ai pu apprendre à l'occasion de ce challenge que ces outils ne sont pas adaptés pour des disques de machine virtuelle.
+Étant familier avec le duo testdisk/photorec (qui m'a déjà rendu bien des services), je me suis concentré sur l'utilisation de ces outils. J'ai pu apprendre à l'occasion de ce challenge que ces outils ne sont pas adaptés pour des disques de machine virtuelle.
 
 * On dégaine testdisk.
   * Il ne reconnaît pas le fichier vmdk...
@@ -76,8 +72,7 @@
     ```
 * On sélectionne le disque dur virtuel, puis "File Opt" pour sélectionner les types png et jpg uniquement.
 * On lance la recherche, avec comme répertoire de destination... Un dossier *dans la VM*.
-    > [!CAUTION]
-    > **Ne faites jamais ceci.** Le risque est d'écraser les fichiers que l'on souhaite récupérer, en écrivant sur les secteurs non alloués.
+    > ⚠️ **Ne faites jamais ceci.** Le risque est d'écraser les fichiers que l'on souhaite récupérer, en écrivant sur les secteurs non alloués.
     * Opération terminé. Tiens, c'est bizarre, la VM rame. Ah, le disque est plein. Bon, on redémarre la VM.
     * Ah ben non, elle démarre plus. Oups. <ins>Évidemment, on a omis de prendre un snapshot</ins>... C'est à ça que servent les CTF !
 * On réimporte l'OVA. Cette fois, on va prendre comme destination un disque dur qui traîne dans le placard.
