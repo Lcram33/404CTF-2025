@@ -35,8 +35,6 @@ Mes writeups pour le 404 CTF édition 2025 en tant que participant.
 
 https://ctf.404ctf.fr/
 
-```
 Coorganisé par la Direction Générale de la Sécurité Extérieure et Télécom SudParis, le 404 CTF est la plus grande compétition de cybersécurité de France. Après le succès des précédentes éditions, avec l'édition 2024 qui célébrait le monde du sport, le 404 CTF revient pour une quatrième édition sur le thème de l'espace !
 
 Pendant un mois, confrontez-vous à des challenges conçus par le club de cybersécurité HackademINT de Télécom SudParis. Que vous soyez expert ou débutant, n'hésitez pas à mettre vos compétences à l’épreuve lors de ce CTF individuel ! 
-```
