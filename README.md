@@ -75,7 +75,9 @@ Pendant un mois, confrontez-vous à des challenges conçus par le club de cybers
 
 ### Renseignement en Sources Ouvertes
 
-[Page dédiée](OSINT/) (j'ai travaillé avec CherryTree)
+⚪️ [Earth Attack (0/2)](OSINT/)<br>
+🔵 [La ville en rose](OSINT/)<br>
+🔴 [En eaux sombres](OSINT/)<br>
 
 ### Intelligence Artificielle
 
