@@ -1,7 +1,7 @@
 # 404 CTF 2025 - Write Ups
 
 <div align="center">
-    <img src="logo.png" width=256 />
+    <img src="img/logo.png" width=256 />
 </div>
 
 Mes writeups pour le 404 CTF édition 2025 en tant que participant.
@@ -11,13 +11,23 @@ Mes writeups pour le 404 CTF édition 2025 en tant que participant.
 
 ## L'événement
 
+<p align="center"> 
+  <a href="https://github.com/Lcram33/404CTF-2025">
+    <img src="img/dgse.png" width=160 />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Lcram33/Shutlock-CTF-2025" >
+    <img src="img/telecom_sud_paris.png" width=140 />
+  </a>
+</p>
+
 10/05/2025 - 01/06/2025
 
+> Coorganisé par la Direction Générale de la Sécurité Extérieure et Télécom SudParis, le 404 CTF est la plus grande compétition de cybersécurité de France. Après le succès des précédentes éditions, avec l'édition 2024 qui célébrait le monde du sport, le 404 CTF revient pour une quatrième édition sur le thème de l'espace !
+>
+> Pendant un mois, confrontez-vous à des challenges conçus par le club de cybersécurité HackademINT de Télécom SudParis. Que vous soyez expert ou débutant, n'hésitez pas à mettre vos compétences à l’épreuve lors de ce CTF individuel !
+
 https://ctf.404ctf.fr/
-
-Coorganisé par la Direction Générale de la Sécurité Extérieure et Télécom SudParis, le 404 CTF est la plus grande compétition de cybersécurité de France. Après le succès des précédentes éditions, avec l'édition 2024 qui célébrait le monde du sport, le 404 CTF revient pour une quatrième édition sur le thème de l'espace !
-
-Pendant un mois, confrontez-vous à des challenges conçus par le club de cybersécurité HackademINT de Télécom SudParis. Que vous soyez expert ou débutant, n'hésitez pas à mettre vos compétences à l’épreuve lors de ce CTF individuel !
 
 ## Code couleur
 
@@ -75,9 +85,13 @@ Pendant un mois, confrontez-vous à des challenges conçus par le club de cybers
 
 ### Renseignement en Sources Ouvertes
 
-⚪️ [Earth Attack (0/2)](OSINT/)<br>
-🔵 [La ville en rose](OSINT/)<br>
-🔴 [En eaux sombres](OSINT/)<br>
+* Pour cette catégorie, j'ai utilisé <img src="img/cherrytree.png" height=25 /> <a href="https://www.giuspen.com/cherrytree/">CherryTree</a> pour organiser mes recherches.
+* Le fichier [OSINT-404CTF.ctb](OSINT/OSINT-404CTF.ctd) contient les énoncés (noeuds) et les sous-noeuds contiennent des pistes ou solutions.
+Ils sont bien identifiés.
+
+⚪️ [Earth Attack (0/2)](OSINT/EarthAttack0/Earth-Attack-0.MD)<br>
+🔵 [La ville en rose](OSINT/La-ville-en-rose.MD)<br>
+🔴 [En eaux sombres](OSINT/EnEauxSombres/En-eaux-sombres.MD)<br>
 
 ### Intelligence Artificielle
 
